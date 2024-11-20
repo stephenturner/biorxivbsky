@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Bluesky Share for bioRxiv",
+    "version": "1.0",
+    "description": "Adds a Bluesky share button to bioRxiv papers",
+    "author": "Stephen Turner",
+    "homepage_url": "https://blog.stephenturner.us",
+    "permissions": ["scripting"],
+    "host_permissions": ["*://*.biorxiv.org/*"],
+    "content_scripts": [{
+      "matches": ["*://*.biorxiv.org/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }],
+    "icons": {
+      "16": "icon16.svg",
+      "48": "icon48.svg",
+      "128": "icon128.svg"
+    }
+  }
