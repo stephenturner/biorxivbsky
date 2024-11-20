@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Bluesky Share for bioRxiv",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "Adds a Bluesky share button to bioRxiv papers",
     "author": "Stephen Turner",
     "homepage_url": "https://blog.stephenturner.us",
